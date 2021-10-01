@@ -1,2 +1,2 @@
 # bawasir.js
-## React component library
+### Higher order component library for , web components. 
