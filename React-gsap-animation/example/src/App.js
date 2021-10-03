@@ -4,7 +4,7 @@ import { ExampleComponent } from 'test2'
 import 'test2/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ExampleComponent text="React gasp Animation 😄" />
 }
 
 export default App
