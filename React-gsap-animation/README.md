@@ -1,4 +1,4 @@
-# test2
+# React Gsap Animation component 
 
 > testing lib
 
