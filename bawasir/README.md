@@ -175,7 +175,4 @@ Change the `alias` to point to where those packages are actually installed. This
 -    "react-dom": "../node_modules/react-dom"
 +    "react": "../../../node_modules/react",
 +    "react-dom": "../../../node_modules/react-dom"
-   },
-```
-
-An alternative to fixing this problem would be to remove aliases altogether and define the dependencies referenced as aliases as dev dependencies instead. [However, that might cause other problems.](https://github.com/palmerhq/tsdx/issues/64)
+  
