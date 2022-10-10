@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #111827;
+  @apply overflow-hidden;
+}
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.font-spartan {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.gradientText {
+  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.drawerBackground {
+  background: linear-gradient(
+    120.37deg,
+    rgba(239, 239, 239, 0.085) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  box-sizing: border-box;
+  backdrop-filter: blur(60px);
+}
+
+.selectionBackground {
+  /* @apply selection:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500; */
+  @apply selection:bg-fuchsia-600;
+}
+
+.headerBackground {
+  /* background: linear-gradient(
+    120.37deg,
+    rgba(239, 239, 239, 0.6) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(60px); */
+  background: linear-gradient(
+    111.68deg,
+    rgba(255, 255, 255, 0.354) 7.59%,
+    rgba(255, 255, 255, 0.129) 102.04%
+  );
+
+  box-sizing: border-box;
+  backdrop-filter: blur(90px);
+}
